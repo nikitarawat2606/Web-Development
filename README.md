@@ -15,6 +15,7 @@
 
 1. Created branch Main
 2. git commit .
-3. git push origin main
-4. Open a Pull request & merge it 
+3. git push origin master
+4. Open a Pull request & merge it with main branch
 -->
+
