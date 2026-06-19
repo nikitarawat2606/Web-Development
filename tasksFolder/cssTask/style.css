@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(235, 98, 48);
+}
+
+.head {
+    color: darkblue;
+}
+
+/* Existing styling for h1 with class head and id bglime */
+h1.head#bglime {
+  background-color: lime;
+  padding: 8px;
+}
+
+/* Styling for the specific word inside h2 */
+.headWord {
+  color: red;
+  font-weight: bold;
+}
+
+p {
+    color: white;
+}
+
+.pWord {
+    font-size: 25px;
+    color: black
+}
+
+#para {
+    color: green;
+}
