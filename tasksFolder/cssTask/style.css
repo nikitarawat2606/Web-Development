@@ -1,32 +1,61 @@
+/* Styling for the body element */
+
 body {
     background-color: rgb(235, 98, 48);
 }
+
+/* Styling for class head */
 
 .head {
     color: darkblue;
 }
 
 /* Existing styling for h1 with class head and id bglime */
+
 h1.head#bglime {
   background-color: lime;
   padding: 8px;
 }
 
-/* Styling for the specific word inside h2 */
-.headWord {
-  color: red;
-  font-weight: bold;
+/* Styling text color of head in h1 with class head and id bglime */
+
+h1 b {
+    color : red;
 }
 
+/* Styling for paragraphs */
 p {
     color: white;
 }
 
-.pWord {
-    font-size: 25px;
-    color: black
-}
+/* Styling for the specific paragraph with id para */ 
 
 #para {
     color: green;
 }
+
+/* Styling for the specific word "paragraph" with strong tag */
+
+p strong {
+    color: black;
+    font-size: 20px;
+    font-family: helvetica;
+}
+
+/* Styling for the specific list items */
+
+li:nth-child(3){
+        color: red;
+    }
+    ul li:nth-child(1) a{
+        background-color: yellowgreen;
+        color: green;
+        text-decoration: none;
+    }
+    ul li:nth-child(2) a{
+        background-color: rgba(103, 39, 103, 0.855);
+    }
+
+    ol li:nth-child(2){
+        color: blue;
+    }
