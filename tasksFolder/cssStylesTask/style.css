@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+}
+
+/* Section spacing */
+.image-section {
+  margin: 10% 25%;   /* 10% top/bottom, 25% left/right */
+  width: fit-content;
+}
+
+/* button styling */
+.center-btn{
+  text-align: center;
+  margin: -1%;
+  color: white;
+  width:fit-content;
+  padding: 2% 41% 2% 44% ;
+  background: linear-gradient(to right, orange, green);
+}
