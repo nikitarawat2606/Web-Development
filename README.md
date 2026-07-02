@@ -1,6 +1,8 @@
 # Web-Development
 
->>Task number 4 submission Done here: CSS & HTML
+## need help in making list items in center and in line with logo & username tab
+
+>>Task number 5 submission Done here: CSS & HTML
 
 # GitHub commands used:
 1. Create branch Main
@@ -20,56 +22,11 @@
 
 > 💡 Tip: If you’re using an IDE like NetBeans or VS Code, you can also right‑click the HTML file and choose **Run File** to launch it directly in your browser.
 
-# Simple Webpage Project
-
-This project demonstrates how to build and style a basic webpage using **HTML** and **CSS** with specific layout and styling constraints.
-
----
-
-## 📂 Project Structure
-
-
----
-
-## ⚙️ Setup Instructions
-
-1. Create an `index.html` file and define the document structure with proper HTML tags.
-2. Set a document title and link the external stylesheet (`style.css`).
-3. Place both files in the same directory.
-
----
-
-## 🖼️ Body Content
-
-- Add a `<div>` with a class for image display.
-- Insert an image inside the div.
-- Add a button for user interaction.
-
----
-
-## 🎨 Styling Guidelines
-
-- Use **viewport units** for spacing:
-  - Equal spacing of **25%** from left and right.
-  - Spacing of **10%** from top and bottom.
-- Customize the button with:
-  - Gradient background
-  - Font settings
-- Apply **box-sizing** correctly.
-- Ensure the page does **not scroll**.
-- ⚠️ Restrictions:
-  - Do **not** use `flex`.
-  - Do **not** use `overflow: hidden`.
-  - Do **not** use `position: relative` or `absolute`.
-
----
-
-## ✅ Final Steps
-
-- Ensure all HTML tags are properly closed.
-- Save and test the webpage in a browser to verify functionality and styling.
-
----
+## Display
+1. inline (span, a)
+2. block (p, h1-h6, div, forms, ul, ol, li)
+3. inline-block (img)
+4. none
 
 ## 🚀 How to Run
 
@@ -80,7 +37,19 @@ This project demonstrates how to build and style a basic webpage using **HTML** 
 
 ---
 
-## 📌 Notes
+## 📝 Tasks Implemented
 
-- This project is designed for practicing **basic HTML/CSS layout** with strict constraints.
-- Ideal for beginners learning how to control spacing and styling without relying on advanced layout techniques.
+### 🔹 Navbar
+- Contains links: **Home, Services, About Us, Contact Us**.
+- Logo aligned to the **left**.
+- Username aligned to the **right**.
+- Navigation tabs centered using `display: inline` and `text-align` properties.  
+  *(Flexbox is intentionally avoided as per instructions.)*
+
+### 🔹 Hero Section
+- Built with **two divs**:
+  - **Left div** → Heading, description, and a **“Book a Service Today”** button.
+  - **Right div** → Laundry‑related image.
+- Uses **viewport units (vh, vw)** to fit the section neatly on the screen without scrolling.
+
+

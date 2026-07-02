@@ -1,0 +1,136 @@
+*{
+    margin: 1vw 1vh 1vw 1vh;
+    padding: 1vw 1vh 1vw 1vh;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+}
+
+/* Navbar styling */
+
+.navbar{
+    display: inline;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    height: 10vh;
+}
+
+/* nav items styling */
+.navbar ul{
+    display:inline;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li:first-child {
+    float: left;
+}
+
+ul li:last-child {
+    text-align: right;
+}
+
+ul>li>a{
+    text-decoration: none;
+    color: rgb(147, 143, 143);
+}
+
+li a:hover{
+    color: #051d3d;
+}
+
+li{
+    display:inline;
+    padding:0;
+    margin: 0;
+    text-align: center;
+}
+
+div {
+    display:inline-block;
+}
+
+/* logo and username styling */
+
+    .navbar li img {
+    width: 10vw;
+    height: 15vh;
+    padding: 0;
+    margin: 0;
+    border-radius: 350px;
+    
+    }
+    .navbar li .username{   
+    color:#1996e3;
+    border: none;
+    text-align: right;
+    }
+
+    .username{
+    display:inline;
+    float: right;
+    }
+
+    .username a{
+    background-color: rgb(136, 190, 235);
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(13, 46, 120);
+    margin:5vw 5vh 5vw 5vh;
+    padding: 2vw 2vh 2vw 2vh;
+    }
+
+/* Hero section styling */
+
+.hero-section{
+    display: inline-block;
+    width: 90vw;
+    height: 90vh;
+    align-items: center;
+    padding: 5vw 10vh 5vw 0vh;
+}
+
+.left-div{
+    text-align: left;
+    width: 50%;
+}
+
+.left-div h1{
+    color: rgb(46, 46, 46);
+    font-size: 2.5rem;
+    display:block;
+}
+
+.left-div .head{
+    color:#007bff;
+}
+
+.right-div p {
+    color: rgb(147, 143, 143);
+   width: 60%;
+}
+
+/* washing machine image styling */
+
+.image{
+    display: inline-block;
+    width: 30vw;
+    height: 60vh;
+}
+
+/* button styling */
+
+.btn{
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: #112265;
+    cursor: pointer;
+}
+
