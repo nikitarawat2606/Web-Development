@@ -1,7 +1,5 @@
 # Web-Development
 
-## need help in making list items in center and in line with logo & username tab
-
 >>Task number 5 submission Done here: CSS & HTML
 
 # GitHub commands used:
