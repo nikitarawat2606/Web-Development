@@ -1,136 +1,131 @@
-*{
-    margin: 1vw 1vh 1vw 1vh;
-    padding: 1vw 1vh 1vw 1vh;
-    font-family:Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
-
-}
-
-/* Navbar styling */
-
-.navbar{
-    display: inline;
-    background-color: rgb(255, 255, 255);
-    padding: 10px;
-    height: 10vh;
-}
-
-/* nav items styling */
-.navbar ul{
-    display:inline;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-ul li:first-child {
-    float: left;
-}
-
-ul li:last-child {
-    text-align: right;
-}
-
-ul>li>a{
-    text-decoration: none;
-    color: rgb(147, 143, 143);
-}
-
-li a:hover{
-    color: #051d3d;
-}
-
-li{
-    display:inline;
-    padding:0;
-    margin: 0;
-    text-align: center;
-}
-
-div {
-    display:inline-block;
-}
-
-/* logo and username styling */
-
-    .navbar li img {
-    width: 10vw;
-    height: 15vh;
-    padding: 0;
-    margin: 0;
-    border-radius: 350px;
-    
-    }
-    .navbar li .username{   
-    color:#1996e3;
-    border: none;
-    text-align: right;
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        /*  border: 1px solid black; */
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        /* scroll bars hidden here */
+        overflow-x: hidden ;
+        overflow-y: hidden ;
     }
 
-    .username{
-    display:inline;
-    float: right;
+    body{
+        width: 100vw;
+        height:100vh;
+        margin-left: 20px;
+        margin-right:20px;
+        padding: 0;
     }
 
-    .username a{
-    background-color: rgb(136, 190, 235);
+    /* navbar styling added */
+
+    .navbar{
+        display: inline;
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    /* navbar ul styling */
+
+    .navbar ul{
+        list-style: none;
+        width: 100vw;
+    }
+
+    .navbar ul:first-child{
+        float: left;
+    }
+
+    .navbar ul li{
+        display: inline;
+    }
+
+
+    .navbar ul li a{
+        text-decoration: none;
+        color:rgb(147, 143, 143);
+    }
+
+    .navbar li a:hover{
+        color: #051d3d;
+    }
+
+/* username tab styling */
+
+    .navbar li .username{
+        color:#3ca7ea;
+        border: none;
+    }
+
+   .username a{
+    background-color: rgb(118, 189, 248);
     border-radius: 10px;
     text-decoration: none;
     color: rgb(13, 46, 120);
-    margin:5vw 5vh 5vw 5vh;
-    padding: 2vw 2vh 2vw 2vh;
+    padding: 1vw;
     }
 
-/* Hero section styling */
+    .navbar img{
+        display: inline;
+        width:10%;
+        padding-top: 2vh;
+    }
 
-.hero-section{
-    display: inline-block;
-    width: 90vw;
-    height: 90vh;
-    align-items: center;
-    padding: 5vw 10vh 5vw 0vh;
-}
+/* Hero section styling*/
 
-.left-div{
-    text-align: left;
-    width: 50%;
-}
+    .hero-section{
+        display: inline-block;
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
 
-.left-div h1{
-    color: rgb(46, 46, 46);
-    font-size: 2.5rem;
-    display:block;
-}
+    /* left side section */
 
-.left-div .head{
-    color:#007bff;
-}
+    .hero-section .left-div{
+        margin-top: 20vh ;
+        padding-left: 4vw;
+        width: 50%;
+        display: inline-block;
+    }
 
-.right-div p {
-    color: rgb(147, 143, 143);
-   width: 60%;
-}
+/* highlighting words */
 
-/* washing machine image styling */
+    .hero-section .left-div .head{
+        color:#007bff;
+    }
 
-.image{
-    display: inline-block;
-    width: 30vw;
-    height: 60vh;
-}
+/* right side section */
+
+    .hero-section .right-div{
+        width: 50%;
+        float: right;
+        height: 60vh;
+    }
+
+/* washing-machine image added */
+
+    .hero-section .right-div img{
+        width: 50%;
+        height:60vh;
+        margin-left:20vh;
+        padding-top: 10vh;
+    }
 
 /* button styling */
 
-.btn{
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-}
+    .hero-section .left-div .btn{
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+    }
 
-.btn:hover{
-    background-color: #112265;
-    cursor: pointer;
-}
-
+    .hero-section .left-div .btn:hover{
+        background-color: #112265;
+        cursor: pointer;
+    }
