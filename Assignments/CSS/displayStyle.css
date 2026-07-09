@@ -1,0 +1,131 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        /*  border: 1px solid black; */
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        /* scroll bars hidden here */
+        overflow-x: hidden ;
+        overflow-y: hidden ;
+    }
+
+    body{
+        width: 100vw;
+        height:100vh;
+        margin-left: 20px;
+        margin-right:20px;
+        padding: 0;
+    }
+
+    /* navbar styling added */
+
+    .navbar{
+        display: inline;
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    /* navbar ul styling */
+
+    .navbar ul{
+        list-style: none;
+        width: 100vw;
+    }
+
+    .navbar ul:first-child{
+        float: left;
+    }
+
+    .navbar ul li{
+        display: inline;
+    }
+
+
+    .navbar ul li a{
+        text-decoration: none;
+        color:rgb(147, 143, 143);
+    }
+
+    .navbar li a:hover{
+        color: #051d3d;
+    }
+
+/* username tab styling */
+
+    .navbar li .username{
+        color:#3ca7ea;
+        border: none;
+    }
+
+   .username a{
+    background-color: rgb(118, 189, 248);
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(13, 46, 120);
+    padding: 1vw;
+    }
+
+    .navbar img{
+        display: inline;
+        width:10%;
+        padding-top: 2vh;
+    }
+
+/* Hero section styling*/
+
+    .hero-section{
+        display: inline-block;
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    /* left side section */
+
+    .hero-section .left-div{
+        margin-top: 20vh ;
+        padding-left: 10vw;
+        width: 50%;
+        display: inline-block;
+    }
+
+/* highlighting words */
+
+    .hero-section .left-div .head{
+        color:#007bff;
+    }
+
+/* right side section */
+
+    .hero-section .right-div{
+        width: 50%;
+        float: right;
+        height: 60vh;
+    }
+
+/* washing-machine image added */
+
+    .hero-section .right-div img{
+        width: 50%;
+        height:60vh;
+        margin-left:20vh;
+        padding-top: 10vh;
+    }
+
+/* button styling */
+
+    .hero-section .left-div .btn{
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .hero-section .left-div .btn:hover{
+        background-color: #112265;
+        cursor: pointer;
+    }

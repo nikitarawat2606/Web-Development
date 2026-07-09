@@ -1,131 +1,105 @@
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        /*  border: 1px solid black; */
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
-        /* scroll bars hidden here */
-        overflow-x: hidden ;
-        overflow-y: hidden ;
-    }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(242, 242, 250);
+    overflow-y: hidden;
+}
 
-    body{
-        width: 100vw;
-        height:100vh;
-        margin-left: 20px;
-        margin-right:20px;
-        padding: 0;
-    }
+/* container styling added */
 
-    /* navbar styling added */
+.container{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: nowrap row;   
+    align-items: center;
+    align-content: center;
+    background-color: rgb(242, 242, 250);
+}
 
-    .navbar{
-        display: inline;
-        margin: 0;
-        padding: 0;
-        width: 100vw;
-        height: 100vh;
-    }
+.container .left-section,
+.container .form-section {
+    flex-shrink: 0;   /* Stops shrinking */
+}
 
-    /* navbar ul styling */
+/* image left section styling added */
 
-    .navbar ul{
-        list-style: none;
-        width: 100vw;
-    }
+.container .left-section{
+    flex-direction: row;
+    border: 2px solid blue;
+    padding: 10vw 10vh 10vw 10vh;
+    background-color: #559dea;
+}
 
-    .navbar ul:first-child{
-        float: left;
-    }
+/* form styling added */
 
-    .navbar ul li{
-        display: inline;
-    }
+.container .form-section{
+    width:50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    background-color: rgb(242, 242, 250);    
+}
 
+.form-section form label{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-    .navbar ul li a{
-        text-decoration: none;
-        color:rgb(147, 143, 143);
-    }
+/* forgotPwd styling */
 
-    .navbar li a:hover{
-        color: #051d3d;
-    }
-
-/* username tab styling */
-
-    .navbar li .username{
-        color:#3ca7ea;
-        border: none;
-    }
-
-   .username a{
-    background-color: rgb(118, 189, 248);
-    border-radius: 10px;
+.form-section #forgotPwd{
+    display: flex;
+    justify-content: flex-end;
     text-decoration: none;
-    color: rgb(13, 46, 120);
-    padding: 1vw;
-    }
+}
 
-    .navbar img{
-        display: inline;
-        width:10%;
-        padding-top: 2vh;
-    }
+/* registerLink styling */
 
-/* Hero section styling*/
+.form-section #registerLink{
+    display: flex;
+    justify-content:center;
+}
 
-    .hero-section{
-        display: inline-block;
-        width: 100vw;
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden;
-    }
+/* form-links styling */
 
-    /* left side section */
+.form-section a{
+    text-decoration: none;
+}
 
-    .hero-section .left-div{
-        margin-top: 20vh ;
-        padding-left: 10vw;
-        width: 50%;
-        display: inline-block;
-    }
+.form-section a:hover{
+    cursor: pointer;
+    color: red;
+}
 
-/* highlighting words */
+/* input styling */
 
-    .hero-section .left-div .head{
-        color:#007bff;
-    }
+input[type="email"],
+input[type="password"],
+button {
+  width: 100%;          /* Full width of the parent container */
+  padding: 10px;        /* Equal padding for consistent height */
+  margin: 5px 0;       /* Space between elements */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:medium;
+  border-radius: 5px;
+  background-color: white;
+}
 
-/* right side section */
+/* form button styling */
 
-    .hero-section .right-div{
-        width: 50%;
-        float: right;
-        height: 60vh;
-    }
-
-/* washing-machine image added */
-
-    .hero-section .right-div img{
-        width: 50%;
-        height:60vh;
-        margin-left:20vh;
-        padding-top: 10vh;
-    }
-
-/* button styling */
-
-    .hero-section .left-div .btn{
-        background-color: #007bff;
+.form-section button{
+    background-color: #007bff;
         color: white;
-        padding: 10px 20px;
+        padding: 10px 250px;
         border: none;
         border-radius: 5px;
-    }
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+}
 
-    .hero-section .left-div .btn:hover{
-        background-color: #112265;
+.form-section button:hover{
+    background-color: #112265;
         cursor: pointer;
-    }
+}
