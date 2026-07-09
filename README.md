@@ -1,6 +1,6 @@
 # Web-Development
 
->>Task number 5 submission Done here: CSS & HTML
+>>Task number 6 submission Done here: CSS & HTML
 
 # GitHub commands used:
 1. Create branch Main
@@ -37,17 +37,22 @@
 
 ## 📝 Tasks Implemented
 
-### 🔹 Navbar
-- Contains links: **Home, Services, About Us, Contact Us**.
-- Logo aligned to the **left**.
-- Username aligned to the **right**.
-- Navigation tabs centered using `display: inline` and `text-align` properties.  
-  *(Flexbox is intentionally avoided as per instructions.)*
+## 🎨 Customization
+- Replace the illustration in `assets/` with your own image.
+- Adjust colors in `style.css` to match your brand.
+- Modify padding/margins for different screen sizes.
+- Use media queries to tweak layout for mobile devices.
 
-### 🔹 Hero Section
-- Built with **two divs**:
-  - **Left div** → Heading, description, and a **“Book a Service Today”** button.
-  - **Right div** → Laundry‑related image.
-- Uses **viewport units (vh, vw)** to fit the section neatly on the screen without scrolling.
+---
 
+## 📖 Notes
+- Flexbox ensures alignment and responsiveness.
+- `flex-shrink: 0` and `min-width` are used to prevent the form from shrinking too much on smaller screens.
+- Media queries can stack the layout vertically for mobile.
+
+---
+
+## 📸 Preview
+Left side → Laundry illustration  
+Right side → Login form with email, password, forgot password, login button, and register link.
 
